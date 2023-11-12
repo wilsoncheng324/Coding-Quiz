@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100wh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 57, 214);
+}
+
+h3 {
+    text-align: right;
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+p, button {
+    font-size: 24px;
+    margin: 50px;
+}
+
+.qbtn {
+    display: inline-block;
+    border: 1px solid rgb(60, 60, 85);
+    background-color: rgb(127, 204, 255);
+    border-radius: 5%;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+
+#start {
+    background-color: rgb(133, 146, 204);
+    height: 75px;
+    width: 150px;
+    border: none;
+    border-radius: 5%;
+    
+}
+
+.hide {
+    display: none;
+}
