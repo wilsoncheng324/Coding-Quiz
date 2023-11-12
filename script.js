@@ -31,7 +31,6 @@ var questions = [
     }
 ];
 
-
 function displayQuestion(){
     if (currentQuestion < questions.length) {
     questionElm.textContent = questions[currentQuestion].question;
